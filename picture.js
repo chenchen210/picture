@@ -67,12 +67,6 @@ window.onload=function(){
         numlist[i%5].style.background="red";
     }
     var timer=setInterval(imgChange,3000);
-    // box.onmouseover=function(){
-    //     clearInterval(timer);
-    // }
-    // box.onmouseout=function(){
-    //     timer=setInterval(imgChange,2000);
-    // }
     prev.onclick=function(){
         imgs[i%5].style.display='none';
         for(var k=0;k<numlist.length;k++){
